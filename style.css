@@ -1,0 +1,239 @@
+* {
+padding:0;
+margin:0;
+}
+
+body {
+background:lightyellow;
+font-size:100%;
+font-family:arial;
+padding:20px;
+}
+
+div#wrapper {
+width:940px;
+margin:20px auto;
+}
+
+#logo {
+width:200px;
+height:100px;
+}
+
+nav {
+height:50px;
+background:lightblue;
+line-height:50px;
+margin-bottom:20px;
+}
+
+nav li {
+list-style-type:none;
+float:left;
+width:16.66%;
+text-align:center;
+line-height:50px;
+}
+
+nav a {
+text-decoration:none;
+display:block;
+}
+
+nav a:hover {
+background:#099;
+color:#fff;
+}
+
+div#box1 {
+width:300px;
+height:200px;
+float:left;
+margin-right:20px;
+margin-top:20px;
+}
+
+div#box2 {
+width:300px;
+height:200px;
+float:left;
+margin-top:20px;
+}
+
+div#box3 {
+width:300px;
+height:200px;
+float:right;
+margin-bottom:20px;
+margin-top:20px;
+}
+
+div#box4 {
+width:300px;
+height:200px;
+float:left;
+margin-bottom:20px;
+margin-top:20px;
+}
+
+div#box5 {
+width:300px;
+float:left;
+margin-bottom:20px;
+margin-top:20px;
+clear:both;
+}
+
+main#home  {
+padding:0 20px;
+}
+
+main#about {
+width:580px;
+float:left;
+margin-right:20px;
+}
+
+main#service  {
+width:400px;
+float:left;
+border-right:1px #666 dotted;
+}
+
+aside {
+width:400px;
+float:right;
+margin-top:100px;
+}
+
+img {
+width:100%;
+}
+
+label {
+display:block;
+margin-bottom:5px;
+
+}
+
+input {
+width:98%;
+margin-bottom:8px;
+height:20px;
+
+}
+
+input[type=submit] {
+width:33%;
+float:right;
+
+}
+
+input[type=radio],
+input[type=checkbox] {
+width:auto;
+height:auto;
+margin:0 5px 8px 10px;
+
+}
+
+.last {
+margin-bottom:12px;
+
+}
+
+fieldset {
+padding:10px;
+border:1px solid grey;
+border-radius:5px;
+margin-bottom:20px;
+
+}
+
+fieldset.left {
+float:left;
+width:44%;
+padding:10px;
+border:none;
+margin-bottom:20px;
+
+}
+
+fieldset.right {
+float:right;
+width:44%;
+padding:10px;
+border:none;
+margin-bottom:20px;
+
+}
+
+.clear  {
+clear:both;
+
+}
+
+textarea {
+width:98%;
+margin-bottom:5px;
+
+}
+
+select {
+margin-bottom:12px;
+background:pink;
+padding:5px;
+
+}
+
+legend {
+font-size:1.2em;
+font-weight:bold;
+font-style:italic;
+background:#937;
+color:#fff;
+padding:5px;
+border-radius:5px;
+
+}
+
+footer {
+height:50px;
+line-height:50px;
+background:lightblue;
+clear:both;
+}
+
+footer ul {
+width:70%;
+margin:0 auto;
+}
+
+footer li {
+font-size:.875em;
+float:left;
+list-style-type:none;
+width:33.33%;
+text-align:center;
+}
+
+h1 {
+margin-bottom:20px;
+margin-top:20px;
+	
+}
+
+h2 {
+color:darkblue;
+margin-bottom:20px;
+margin-top:20px;
+}
+
+h3 {
+color:purple;
+margin-bottom:50px;
+}
+
+p {
+padding-bottom:1.5em;
+}
