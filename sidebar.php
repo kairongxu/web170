@@ -9,7 +9,7 @@ wp_list_pages(array('child_of' => $post->ID, 'title_li' => __(''))); // ...list 
     
     <?php if (get_post_meta($post->ID, 'Quote', true)) : // check to see if there is a quote ?>
     
-    <blockquote><?php echo get_post_meta($post->ID, 'Quote', true);</blockquote>
+    <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?></blockquote>
     
     <?php endif; ?>
 
