@@ -1,6 +1,33 @@
+/*
+Theme Name: Kairong Xu's Summer 2017 WordPress
+Author: Kairong Xu
+Author URI: xukairong.net
+Description: This is a WordPress Theme
+Version: 1.0
+*/
+
 * {
 padding:0;
 margin:0;
+}
+
+#navigation ul li ul.sub-menu {
+display: none;
+}
+
+#navigation ul li.current-menu-item a, #navigation ul li.current-menu-parent a {
+color: #EBB700; /* and use bright gold */
+}
+
+img.wp-post-image {}
+img.attachment-thumbnail {}
+img.attachment-medium {}
+img.attachment-large {}
+img.attachment-full {}
+
+#content article.post-excerpt {
+overflow: hidden;
+margin-bottom: 20px;
 }
 
 body {
@@ -13,12 +40,6 @@ padding:20px;
 div#wrapper {
 width:940px;
 margin:20px auto;
-}
-
-#logo {
-width:200px;
-height:100px;
-}
 
 nav {
 height:50px;
@@ -30,7 +51,7 @@ margin-bottom:20px;
 nav li {
 list-style-type:none;
 float:left;
-width:16.66%;
+width:25%;
 text-align:center;
 line-height:50px;
 }
@@ -43,45 +64,6 @@ display:block;
 nav a:hover {
 background:#099;
 color:#fff;
-}
-
-div#box1 {
-width:300px;
-height:200px;
-float:left;
-margin-right:20px;
-margin-top:20px;
-}
-
-div#box2 {
-width:300px;
-height:200px;
-float:left;
-margin-top:20px;
-}
-
-div#box3 {
-width:300px;
-height:200px;
-float:right;
-margin-bottom:20px;
-margin-top:20px;
-}
-
-div#box4 {
-width:300px;
-height:200px;
-float:left;
-margin-bottom:20px;
-margin-top:20px;
-}
-
-div#box5 {
-width:300px;
-float:left;
-margin-bottom:20px;
-margin-top:20px;
-clear:both;
 }
 
 main#home  {
@@ -104,10 +86,6 @@ aside {
 width:400px;
 float:right;
 margin-top:100px;
-}
-
-img {
-width:100%;
 }
 
 label {
