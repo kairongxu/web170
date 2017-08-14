@@ -6,11 +6,6 @@ wp_list_pages(array('child_of' => $post->post_parent, 'title_li' => __(''))); //
 } else { // if the page does not have a parent...
 wp_list_pages(array('child_of' => $post->ID, 'title_li' => __(''))); // ...list the sub-pages with no title
 } ?></ul>
-    
-    <?php if (get_post_meta($post->ID, 'Quote', true)) : // check to see if there is a quote ?>
-    
-    <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?></blockquote>
-    
-    <?php endif; ?>
 
+<?php dynamic_sidebar( $index ); ?> 
 </div>
