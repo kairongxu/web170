@@ -55,4 +55,10 @@ function get_my_title_tag() {
     
 }
 //
+
+// Register Menus
+register_nav_menus(array('main-menu' => 'Main Menu'));
+//
+
+add_theme_support( 'post-thumbnails' );
 ?>
